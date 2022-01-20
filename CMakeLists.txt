@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(CBookCode)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(CBookCode main.cpp stackandqueue/Problem_01_GetMinStack.h stackandqueue/Problem_02_TwoStackQueue.h stackandqueue/Problem_03_ReverseStackUsingRecursive.h stackandqueue/Problem_04_DogCatQueue.h stackandqueue/Problem_05_StackSortStack.h stackandqueue/Problem_06_Hanoi.h stackandqueue/Problem_07_GetMaxWindow.h stackandqueue/Problem_08_MonotonousStack.h stackandqueue/Problem_09_GetNearLess.h stackandqueue/Problem_10_MaxRecSize.h stackandqueue/Problem_11_GetNum.h)
